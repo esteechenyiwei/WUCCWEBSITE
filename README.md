@@ -24,6 +24,10 @@ Made the header of the website.
 
 Made the footer of the website, coded the first section of Index.html
 
-2019/12/30
+2019/12/29
 
 Finished making the Index page, left instructions for how to replace the Index page images for the club's future tech team. 
+
+2019/12/30
+
+Worked on the About page's 3 sections. Used grid areas to format the page.
