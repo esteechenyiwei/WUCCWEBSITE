@@ -31,3 +31,5 @@ Finished making the Index page, left instructions for how to replace the Index p
 2019/12/30
 
 Worked on the About page's 3 sections. Used grid areas to format the page.
+Started the Committee page.
+Added icons for Abount page's intro section.
