@@ -35,3 +35,7 @@ Worked on the About page's 3 sections. Used grid areas to format the page.
 Added icons for About page's intro section.
 
 Worked on the Committee page. Formatted the html and css files for easy addition and editing of member photos and names/positions. (Easier for future maintenance)
+
+2020/01/02
+
+Worked on the Client page, finished making the title section and added "Become a Client" panel. 
