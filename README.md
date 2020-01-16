@@ -6,6 +6,8 @@ Then, I coded the website using HTML and CSS, completing page by page. Throughou
 
 I am deeply passionate about designing in general, and I found it extremely satisfying to code the website I designed. which is to be used by thousands of users. I would continue learning CSS and JavaScript to make more cool websites in the future!
 
+Interface Design: https://www.figma.com/file/nsn7gK8EykzFAvULB72Cu3/WUCC?node-id=0%3A1
+
 ## Log: 
 
 2019/02
