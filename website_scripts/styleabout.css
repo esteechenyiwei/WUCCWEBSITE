@@ -1,0 +1,366 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap" rel="stylesheet">
+/* styling basic labels */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+/* position = relative;*/
+    height = 100px;
+    width = 1024px;
+    padding = 30px;
+}
+
+
+/* Style the footer */
+footer {
+  
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 2fr;
+  grid-gap: 20px;
+  justify-self: center;
+  
+  align-self: center;
+  grid-template-rows: 50px 1fr 50px;
+  background-color: #273654;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+/*h1*/
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 68px;
+    /* or 227% */
+    letter-spacing: 1.66667px;
+    color: white;
+}
+
+h2 {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 68px;
+    /* identical to box height, or 324% */
+    letter-spacing: 1.66667px;
+    color: white;
+}
+
+/* for sub-page titles */
+h3 {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 79px;
+    letter-spacing: 1.66667px;
+
+    color: #182F3F;
+}
+
+/*h4*/
+h4 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    color: #2B353A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h6 {
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+/* ------------------------------CLASSES------------------- ------------*/
+
+
+/* --------- header & footer ----------*/
+.header-strip {
+/* white header */
+
+display: grid;
+grid-template-columns: 1fr 1fr 3fr 2fr 5fr 0.5fr;
+grid-gap: 20px;
+justify-self: center;
+
+vertical-align: middle;
+background: #FFFFFF;
+
+}
+
+.menu-block {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+justify-self: center;
+align-self: center;
+grid-gap: 20px;
+
+}
+
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #2B353A;
+}
+
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-self: center;
+    align-self: center;
+    grid-gap: 40px;
+
+}
+
+
+
+
+/* --------- about classes ----------*/
+
+.value-cell {
+    display: grid;
+    grid-template-areas: 'icon ttl' 'icon dscp'; 
+    padding: 10px;
+}
+
+.value-icon {
+    grid-area: icon;
+    height: 30px;
+    width: 50px;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+.value-title {
+    grid-area: ttl;
+    padding-top: 20px;
+    
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.9375px;
+    color: #E88470;
+
+}
+
+.value-dscp {
+    grid-area: dscp;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.8125px;
+
+    color: #FFFFFF;
+}
+
+/* ------------------------------ID------------------- ------------*/
+
+/* --------- header & footer ----------*/
+
+/* ids # dark-blue-rectangle*/
+#dark-blue-rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 47.46%;
+    right: 47.46%;
+    top: 0%;
+    width: 52px;
+    height: 66px;
+    
+
+    background: #15517F;
+    box-shadow: 0px 2px 4px #9B9B9B;
+}
+
+#white-link {
+    color: white;
+}
+
+
+/* --------- about id ----------*/
+
+#about-photo-section {
+    background-image: url(/_image/philly1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 200px 1fr 200px;
+    
+}
+
+#about-motive-1 {
+    position: absolute;
+    
+}
+
+#photo-title {
+    color: white;
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+    line-height: 1.25;
+}
+
+#about-intro-section {
+    background-image: url(/_image/york.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+   
+    grid-template-areas: 'title value' 'intro value' 'intro value';
+    grid-gap: 30px;
+    padding: 73px;
+    
+}
+
+#about-intro-title {
+    grid-area: title;
+    align-self: center;
+    justify-self: center;
+      
+    padding: 20px;
+    
+}
+
+#intro-title-word {
+    color: #E2F7FF;
+    line-height: 1.25; 
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+}
+
+
+.intro-paragraph-cell {
+    grid-area: intro;
+    padding: 50px;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+#intro-paragraph {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    
+}
+
+#value {
+    grid-area: value;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+
+/* the Structure section */
+
+#about-structure-section {
+    background-image: url(/_image/nyc.jpg);
+
+    background-size: cover;
+    display: grid;
+   
+    grid-template-areas: 'title structure';
+    grid-gap: 30px;
+    padding: 73px;
+    
+}
+
+#structure-title-cell {
+    grid-area: title;
+}
+
+#title-decoration-word {
+    justify-self: center;
+    align-self: center;
+    padding: 50px;
+
+}
+
+#blue-box {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 8px solid #1D6893;
+    box-sizing: border-box;
+}
+
+#red-motive {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#structure-title {
+    position: absolute;
+    padding-left: 40px;
+
+    color: #373A3C;
+}
+
+#empty-container {
+    /* placeholder */
+    padding-left: 300px;
+}
+
+#structure-structure {
+    grid-area: structure;
+    padding: 50px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-areas: 'line' 'content';
+}
+
+#grey-line {
+    position: absolute;
+    width: 160px;
+    border: 1px solid #182F3F;
+    
+}
+
+#structure-paragraph {
+    text-align: left;
+    padding-right: 50px;
+    
+    
+}

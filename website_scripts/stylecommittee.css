@@ -1,0 +1,324 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap" rel="stylesheet">
+/* styling basic labels */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+/* position = relative;*/
+    height = 100px;
+    width = 1024px;
+    padding = 30px;
+}
+
+
+/* Style the footer */
+footer {
+  
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 2fr;
+  grid-gap: 20px;
+  justify-self: center;
+  
+  align-self: center;
+  grid-template-rows: 50px 1fr 50px;
+  background-color: #273654;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+/*h1*/
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 68px;
+    /* or 227% */
+    letter-spacing: 1.66667px;
+    color: white;
+}
+
+h2 {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 68px;
+    /* identical to box height, or 324% */
+    letter-spacing: 1.66667px;
+    color: white;
+}
+
+/* for sub-page titles */
+h3 {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 79px;
+    letter-spacing: 1.66667px;
+
+    color: #182F3F;
+}
+
+/*h4*/
+h4 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    color: #2B353A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h5 {
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 79px;
+    /* identical to box height, or 359% */
+    letter-spacing: 1.22222px;
+
+    color: #182F3F;
+}
+
+h6 {
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #273654;
+}
+
+
+/* ------------------------------CLASSES------------------- ------------*/
+
+
+/* --------- header & footer ----------*/
+.header-strip {
+/* white header */
+
+display: grid;
+grid-template-columns: 1fr 1fr 3fr 2fr 5fr 0.5fr;
+grid-gap: 20px;
+justify-self: center;
+
+vertical-align: middle;
+background: #FFFFFF;
+
+}
+
+.menu-block {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+justify-self: center;
+align-self: center;
+grid-gap: 20px;
+
+}
+
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #2B353A;
+}
+
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-self: center;
+    align-self: center;
+    grid-gap: 40px;
+
+}
+
+
+
+
+/* --------- committee classes ----------*/
+
+.committee {
+    padding: 30px 120px 120px;
+}
+.committee-name {
+    padding-right: 80%;
+    display: grid;
+    grid-template-areas: 'block name empty';
+    
+    
+}
+
+
+.committee-content {
+
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.member-cell {
+    display: grid;
+    grid-template-rows: 1fr 30px 30px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.member-photo {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* ------------------------------ID------------------- ------------*/
+
+/* --------- header & footer ----------*/
+
+/* ids # dark-blue-rectangle*/
+#dark-blue-rectangle {
+    /* Rectangle */
+
+    position: absolute;
+    left: 47.46%;
+    right: 47.46%;
+    top: 0%;
+    width: 52px;
+    height: 66px;
+    
+
+    background: #15517F;
+    box-shadow: 0px 2px 4px #9B9B9B;
+}
+
+#white-link {
+    color: white;
+}
+
+
+/* --------- committee id ----------*/
+
+
+#com {
+    display: grid;
+    background-image: url(/_image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    grid-template-rows: auto auto auto auto auto auto;
+}
+#com-title-section {
+    
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   padding-top: 50px;
+}
+
+
+#committee-title {
+    align-self: center;
+    justify-self: center;
+}
+
+#title-word {
+    position: inherit;
+    color: #373A3C;
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+    line-height: 1.75;
+   
+}
+
+
+/* decorations */
+#blue-block {
+    width: 19px;
+    height: 41px;
+    grid-area: block;
+    align-self: baseline;
+    background: #21547A;
+}
+
+#committee-name {
+    grid-area: name;
+    align-self: baseline;
+    padding-left: 20px;
+}
+
+#committee-structure-section {
+    background-image: url(/_image/nyc.jpg);
+
+    background-size: cover;
+    display: grid;
+   
+    grid-template-areas: 'title structure';
+    grid-gap: 30px;
+    padding: 73px;
+    
+}
+
+#structure-title-cell {
+    grid-area: title;
+}
+
+#title-decoration-word {
+    justify-self: center;
+    align-self: center;
+    padding: 50px;
+
+}
+
+#title {
+    position: absolute;
+    padding-left: 40px;
+
+    color: #373A3C;
+}
+
+#empty-container {
+    /* placeholder */
+    padding-left: 300px;
+}
+
+/* ----- ****IMPORTANT: EDIT MEMBER PHOTOS HERE **** -----*/
+
+
+
+#name1 {
+    background-image: url(/_image/test.jpg);
+    background-size: cover;
+}
+
+#name2 {
+    background-image: url(/_image/test2.png);
+    background-size: cover;
+}
+
+#
+
+#
+
+
+
